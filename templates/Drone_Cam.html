@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Drone Stream</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="/static/style/style.css">
+    <script src="/static/scripts/script.js"></script>
+</head>
+<body>
+    
+    <div class="box1">
+        <h1>Drone Stream</h1>
+    </div>
+
+    <img id="webcamImage" src="/video_feed" style="width: 1920px; height: 1080px;" alt="Webcam Stream">
+
+<div class="box6"> 
+    <h6>Priority List</h6> 
+    </div>
+
+<!-- Toggle Switch 1 -->
+<label class="switch">
+    <input type="checkbox" id="togBtn1" {{ 'checked' if toggle_switch1 else '' }}>
+    <div class="slider round"></div>
+  </label>
+  
+  <!-- Toggle Switch 2 -->
+  <label class="switch">
+    <input type="checkbox" id="togBtn2" {{ 'checked' if toggle_switch2 else '' }}>
+    <div class="slider round"></div>
+  </label>
+  
+  <!-- Toggle Switch 3 -->
+  <label class="switch">
+    <input type="checkbox" id="togBtn3" {{ 'checked' if toggle_switch3 else '' }}>
+    <div class="slider round"></div>
+  </label>
+
+    <a href="/Go_Pro">
+        <div class="box4">
+            <h4 class="h8">Go-Pro Camera</h4>
+        </div>
+    </a>
+
+    <a href="https://viso.ai/deep-learning/yolov8-guide/" target="_blank">
+        <div class="box5">
+            <h5>Help</h5>
+        </div>
+    </a>
+
+    <a href="/Library">
+        <div class="box7">
+            <h6 class="h7">Library</h6>
+        </div>
+    </a>
+
+
+    <div id="timeline">
+        
+    </div>
+
+    <ul id="messages"></ul>
+
+    <img class="img1" src="static/background/Life_Raft.png" alt="Life Raft">
+
+    <img class="img2" src="static/background/Life_Jacket.png" alt="Life Jackets">
+
+    <img class="img3" src="static/background/Life_Ring.png" alt="Life Ring">
+
+
+</body>
+</html>

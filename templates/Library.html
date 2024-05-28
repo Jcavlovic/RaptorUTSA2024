@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="/static/style/style_lib.css">
+    <script src="/static/scripts/script_lib.js"></script>
+</head>
+<body>
+    
+    <div class="box1">
+        <h1>Library</h1>
+    </div>
+
+<div class="box6"> 
+    <h6>Priority List</h6> 
+    </div>
+
+    <a href="/Drone_Cam">
+        <div class="box4">
+            <h4>Drone Camera</h4>
+        </div>
+    </a>
+
+    <a href="https://viso.ai/deep-learning/yolov8-guide/" target="_blank">
+        <div class="box5">
+            <h5>Help</h5>
+        </div>
+    </a>
+
+    <a href="/Go_Pro">
+        <div class="box7">
+            <h6 class="h7">Go-Pro Camera</h6>
+        </div>
+    </a>
+
+    <img class="img1" src="/static/background/Life_Raft.png" alt="Life Raft">
+
+    <img class="img2" src="/static/background/Life_Jacket.png" alt="Life Jackets">
+
+    <img class="img3" src="/static/background/Life_Ring.png" alt="Life Ring">
+    
+    <form id="category-form">
+        <label><input type="checkbox" name="category" value="category1" onchange="loadImages()"> Category 1</label>
+        <label><input type="checkbox" name="category" value="category2" onchange="loadImages()"> Category 2</label>
+        <label><input type="checkbox" name="category" value="category3" onchange="loadImages()"> Category 3</label>
+    </form>
+    <div id="image-gallery"></div>
+    <!-- Modal Overlay -->
+    <div class="modal-overlay" id="modal-overlay">
+        <img class="full-size-image" id="full-size-image">
+    </div>
+
+
+</body>
+</html>
