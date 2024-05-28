@@ -1,0 +1,78 @@
+body {
+    background-image: url('/static/background/VI5ION.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow-y: hidden;
+
+    /*display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; */
+}
+.box1 {
+    background-color: #25b7d1; 
+    border: 5px solid black;
+    padding: 20px; /* Add some padding around the text */
+    border-radius: 100px; /* Rounded corners */
+    position: absolute;
+    bottom: 80px;
+    left: 75%;
+    transform: translateX(-75%);
+    height: 50px;
+    width: 250px;
+}
+h1 {
+    color: black;
+    text-align: center;
+    margin: 5%;
+    padding: center;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.box2 {
+    background-color: #25b7d1; /* Light gray background color */
+    border: 5px solid black;
+    padding: 20px; /* Add some padding around the text */
+    border-radius: 100px; /* Rounded corners */
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50px;
+    width: 100px;
+}
+h2 {
+    color: black;
+    text-align: center;
+    margin: 15%;
+    padding: center;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.box3 {
+    background-color: #25b7d1; /* Light gray background color */
+    border: 5px solid black;
+    padding: 20px; /* Add some padding around the text */
+    border-radius: 100px; /* Rounded corners */
+    position: absolute;
+    bottom: 80px;
+    left: 25%;
+    transform: translateX(-25%);
+    height: 50px;
+    width: 250px;
+}
+h3 {
+    color: black;
+    text-align: center;
+    margin: 5%;
+    padding: center;
+    font-size: 24px;
+    line-height: 1;
+}

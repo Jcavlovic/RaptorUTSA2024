@@ -1,0 +1,365 @@
+body {
+  background-image: url('/static/background/VI5ION.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+
+  /*display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center; */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+/* Center the list horizontally */
+}
+li {
+  display: block; /* Display list items horizontally */
+  margin: 0 10px; /* Add some margin between images */
+}
+
+#webcamImage {
+  max-width: 76.5%;
+  max-height: 69.5%;
+  height: auto;
+  display: block;
+  position: relative;
+  top: 18.25%;
+  left: 11.25%;
+}
+
+.img1 {
+  max-height: 12%;
+  max-width: 12%;
+  position:relative;
+  display: block;
+  top: -104%;
+  left: 2.5%;
+}
+
+.img2 {
+  max-height: 12%;
+  max-width: 12%;
+  position:relative;
+  display: block;
+  top: -98.5%;
+  left: 2.5%;
+}
+
+.img3 {
+  max-height: 12%;
+  max-width: 12%;
+  position:relative;
+  display: block;
+  top: -91.5%;
+  left: 3%;
+}
+
+a {
+  display: block;
+  width: 15%;
+}
+
+h1 {
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  top: -2%; /* Adjust this value to move the h1 up or down */
+  left: 0%;
+  font-size: 250%;
+  /* transform: translateX(-50%); */
+  width: 100%;
+  z-index: 1; /* Ensure the h1 is above other content */
+  font-style: oblique;
+}
+.box1 {
+  background-color: #25b7d1; 
+  border: 5px solid white;
+  padding: 20px; /* Add some padding around the text */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  bottom: 85%;
+  left: 39.25%;
+  /* transform: translateX(-50%); */
+  height: 9%;
+  width: 18%;
+}
+
+
+h3 {
+
+  color: black;
+  position: fixed;
+  text-align: center;
+  margin: 0%;
+  padding: -25px 0;
+  font-size: 24px;
+  line-height: -5;
+  top: 0px;
+  width: 100%;
+
+}
+
+.box3 {
+  background-color: white; 
+  border: 10px solid #25b7d1; /* Border color and thickness */
+  padding: 20px; /* Add some padding around the text */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  bottom: -75px;
+  left: 0%;
+  transform: translateX(0%);
+  height: 100px;
+  width: 95.58%;
+}
+
+h4{
+  color: black;
+  text-align: left;
+  margin: -1%;
+  padding: 0px 0;
+  font-size: 270%;
+  /* line-height: -15;
+  top: 15px; */
+  width: 150%;
+  text-indent: 1%;
+  font-style: oblique;
+}
+
+.h8 {
+  color: black;
+  text-align: left;
+  margin: 0%;
+  padding: 0px 0;
+  font-size: 270%;
+  /* line-height: -15;
+  top: 15px; */
+  width: 150%;
+  text-indent: -2%;
+}
+
+.box4 {
+  background-color: #25b7d1; 
+  border: 5px solid white;
+  display: block;
+  padding: 20px; /* Add some padding around the text */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  bottom: 83%;
+  left: 16.25%;
+  transform: translateX(0%);
+  height: 4%;
+  width: 18%;
+  overflow: hidden;
+}
+
+h5{
+  color: black;
+  text-align: left;
+  margin: -1%;
+  padding: 0px 0;
+  font-size: 270%;
+  top: 10%;
+  /* line-height: -15;
+  top: 15px; */
+  width: 150%;
+  text-indent: 6.5%;
+  font-style: oblique;
+}
+
+.box5 {
+  background-color: #25b7d1; 
+  border: 5px solid white;
+  display: block;
+  padding: 1%; /* Add some padding around the text */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  bottom: 0%;
+  left: 1%;
+  /* transform: translateX(-300%); */
+  height: 6%;
+  width: 7.5%;
+  overflow: hidden;
+}
+
+h6 {
+  text-align: center;
+  padding: 10px 0;
+  position: absolute;
+  top: -14%; /* Adjust this value to move the h1 up or down */
+  left: 0%;
+  font-size: 250%;
+  /* transform: translateX(-50%); */
+  width: 100%;
+  z-index: 1; /* Ensure the h1 is above other content */
+  font-style: oblique;
+}
+
+.box6 {
+  background-color: #25b7d1; 
+  border: 5px solid white;
+  padding: 1%; /* Add some padding around the text */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  bottom: 12%;
+  left: 1%;
+  /* transform: translateX(-300%); */
+  height: 65%;
+  width: 7.5%;
+}
+
+.h7 {
+  color: black;
+  text-align: left;
+  margin: -1%;
+  padding: 0px 0;
+  font-size: 270%;
+  /* line-height: -15;
+  top: 15px; */
+  top: 28%;
+  width: 150%;
+  text-indent: 18%;
+  font-style: oblique;
+}
+
+.box7 {
+  background-color: #25b7d1; 
+  border: 5px solid white;
+  display: block;
+  padding: 20px; /* Add some padding around the text */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  bottom: 83%;
+  left: 62.25%;
+  transform: translateX(0%);
+  height: 4%;
+  width: 18%;
+  overflow: hidden;
+}
+
+.switch {
+  position: relative;
+  display: block;
+  width: 3.5%;
+  height: 4%;
+  left: 2%;
+  top: -24.50%;
+  margin-bottom: 7%;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+#messages {
+  bottom: 12.25%;
+  border: 2px solid whitesmoke; /* Blue border around the messages list */
+  padding: 11px; /* Padding inside the box */
+  list-style-type: none; /* Removes bullet points */
+   /* Sets a max-width for the box */
+  /* margin: -800px auto 20px 2000px; Adds margin to the top, right (auto for centering), bottom, and left (200px to move right) */
+  height: 66.5%; /* Fixed height */
+   /* Enable scrolling for overflow */
+  background-color: #000; /* Light blue background */
+  left: 88%;
+  position: absolute;
+  width: 10%;
+}
+#messages li {
+  display: inline-block;
+  font-family: Arial, sans-serif; 
+  color: white; /* Makes text color red */
+  font-size: 32px; /* Increases the font size */
+  margin-bottom: 5px; /* Adds a little space between entries */
+}
+
+#timeline {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    white-space: nowrap;
+    position: relative;
+    bottom: 37.5%;
+    left: 11.25%;
+    height: 8.5%;
+}
+
+.image-container {
+  width: 10%;  /* Each image container takes up 25% of the timeline's width */
+  height: 200px; /* Fixed height for all image containers */
+  flex: 0 0 auto; /* Do not grow or shrink */
+  position: relative;
+  overflow: hidden; /* Hides parts of the image that overflow the container dimensions */
+  cursor: pointer;
+  display: flex; /* Enables flexbox properties within the container */
+  align-items: center; /* Centers the image vertically */
+  justify-content: center; /* Centers the image horizontally */
+  transition: transform 0.5s ease; /* Ensures smooth transition for transformations */
+}
+
+.image-container img {
+  width: 51%;  /* Ensures the image tries to fill the container width */
+  height: 98%; /* Ensures the image tries to fill the container height */
+  object-fit: cover; /* Covers the area of the container, cutting off excess parts without distorting ratio */
+  display: block; /* Removes bottom space/gap under the image */
+}
+
+
+.image-container.active {
+    z-index: 10; /* High z-index to ensure visibility above other elements */
+    transition: transform 0.5s ease, left 0.5s ease, top 0.5s ease;
+}
